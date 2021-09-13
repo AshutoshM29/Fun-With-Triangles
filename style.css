@@ -23,8 +23,10 @@ body {
 }
 
 .link .link-active {
-    text-align: right;
-    margin: auto;
+}
+
+.heading {
+    font-size: 4rem;
 }
 
 .head {
@@ -64,6 +66,9 @@ container {
     color: #36B0A8;
 }
 
+#question-container {
+    padding: 5rem;
+}
 
 
 
@@ -79,10 +84,19 @@ container {
 
 
 
+nav .nav-pills {
+    font-size: 1.5rem;
+    text-align: right;
+}
 
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
 
-
-
+nav .link-active {
+    font-weight: bold;
+}
 
 .social-links {
     padding-inline-start: 0px;
@@ -93,5 +107,6 @@ container {
 }
 
 .social-img {
-    max-width: 60px;
+    max-width: 50px;
+    padding: 1rem;
 }
