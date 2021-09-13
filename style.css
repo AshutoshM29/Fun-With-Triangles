@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
+
+*{
+
+}
+
+body {
+    font-family: 'Rancho', cursive;
+    background-color: #36B0A8;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link .link-active {
+    text-align: right;
+    margin: auto;
+}
+
+.head {
+    background-color: white;
+    padding: 1rem;
+    color:#36B0A8;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.head .link {
+    color: #36B0A8;
+
+}
+
+.redirect {
+    border: solid #2B7979 2px;
+    background-color: white;
+    color: #36B0A8;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+.link:hover {
+    color: #2B7979;
+}
+
+container {
+    width: 50vh;
+    margin: auto;
+    display:grid;
+}
+
+.bottom {
+    background-color: white;
+    margin-top: 3rem;
+    padding: 2rem;
+    color: #36B0A8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social-links {
+    padding-inline-start: 0px;
+}
+
+.list-item {
+    display: inline;
+}
+
+.social-img {
+    max-width: 60px;
+}
