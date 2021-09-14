@@ -66,23 +66,50 @@ container {
     color: #36B0A8;
 }
 
-#question-container {
-    padding: 5rem;
+/* buttons */
+
+#is-triangle-btn {
+    font-family: 'Rancho', cursive;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-color: #2B7979;
+    color: #36B0A8;
+    margin-bottom: 2rem;
+    font-size: large;
 }
 
+#submit-answer-btn {
+    font-family: 'Rancho', cursive;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-color: #2B7979;
+    color: #36B0A8;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: large;   
+}
 
+#hypotenuse-btn {
+    font-family: 'Rancho', cursive;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-color: #2B7979;
+    color: #36B0A8;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: large; 
+}
 
-
-
-
-
-
-
-
-
-
-
-
+#area-btn {
+    font-family: 'Rancho', cursive;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-color: #2B7979;
+    color: #36B0A8;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: large; 
+}
 
 nav .nav-pills {
     font-size: 1.5rem;
@@ -98,6 +125,15 @@ nav .link-active {
     font-weight: bold;
 }
 
+#output {
+    border: solid 2px white;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 60vh;
+    margin: auto;
+}
+
 .social-links {
     padding-inline-start: 0px;
 }
@@ -109,4 +145,21 @@ nav .link-active {
 .social-img {
     max-width: 50px;
     padding: 1rem;
+}
+
+.angle-input {
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.quiz-form {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.space {
+    display: block;
+    padding: 1rem
 }

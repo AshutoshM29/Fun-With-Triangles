@@ -4,7 +4,7 @@ const outputDiv = document.querySelector("#output");
 
 function calculateArea() {
     var area = areaOfTriangle(Number(sides[0].value), Number(sides[1].value));
-    outputDiv.innerText= "The area of Triangle is : " + area;
+    outputDiv.innerText= "The area of Triangle is : " + area + "units sq";
 }
 
 function areaOfTriangle(b,h) {
