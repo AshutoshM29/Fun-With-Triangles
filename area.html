@@ -4,46 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hypotenuse</title>
+    <title>Area</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="head">
-        <h1 class="heading">Length of Hypotenuse</h1>
+        <h1 class="heading">Find Area</h1>
         
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link" href="/main.html">Home</a>
+                <a class="link" href="/index.html">Home</a>
             </li>
 
             <li class="list-item-inline">
-               <a class="link" href="/Is-Triangle/is-triangle.html">Is A Triangle?</a>
+               <a class="link" href="/is-triangle.html">Is A Triangle?</a>
            </li>
 
            <li class="list-item-inline">
-               <a class="link link-active" href="/Quiz/quiz.html">The Triangle Quiz</a>
+               <a class="link" href="/quiz.html">The Triangle Quiz</a>
            </li>
 
            <li class="list-item-inline">
-               <a class="link" href="/Hypotenuse/hypotenuse.html">Length of Hypotenuse</a>
+               <a class="link" href="/hypotenuse.html">Length of Hypotenuse</a>
            </li>
 
            <li class="list-item-inline">
-               <a class="link" href="/Area/area.html">Find Area</a>
+               <a class="link link-active" href="/area.html">Find Area</a>
            </li>
         </ul>
    </nav>
-    <p>Enter values for 2 sides and we will tell you the Hypotenuse !</p>
-    <label class="space">a =
-        <input type="number" class="side-input"/>
+    <p>Enter the values of base and height to find the area of triangle !</p>
+
+    <label class="space">
+        Lenght = <input type="number" class="side-input">
     </label>
 
-    <label class="space">b =
-        <input type="number" class="side-input"/>
+    <label class="space">
+        Height = <input type="number" class="side-input">
     </label>
 
-    <button id="hypotenuse-btn">Calculate</button>
-
+    <button id="area-btn">Calculate Area</button>
     <div id="output"></div>
 
     <footer class="bottom">
@@ -66,6 +66,6 @@
     </footer>
 
 
-    <script src="hypotenuse.js"></script>
+    <script src="area.js"></script>
 </body>
 </html>
