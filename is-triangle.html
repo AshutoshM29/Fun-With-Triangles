@@ -38,13 +38,15 @@
 
     <div style="margin-bottom: 2rem;">Enter values of three angles and see wheather it will make a Triangle or not  !</div>
 
+    <small class="small-box">HINT : Sum of all the angles in a Triangle is 180°</small>
+<div style="margin-top: 3rem;">
     <label for="angle1">Angle 1</label>
-    <input type="number" class="angle-input" />
+    <input type="number" required class="angle-input" min="1" max="180" oninput="validity.valid||(value='');" />
     <label for="angle2">Angle 2</label>
-    <input type="number" class="angle-input" />
+    <input type="number" required class="angle-input" min="1" max="180" oninput="validity.valid||(value='');" />
     <label for="angle3">Angle 3</label>
-    <input type="number" class="angle-input" />
-
+    <input type="number" required class="angle-input" min="1" max="180" oninput="validity.valid||(value='');" />
+</div>
     <button id="is-triangle-btn">Is A Triangle?</button>
     <div id="output"></div>
 
@@ -55,7 +57,7 @@
                 <a href="https://github.com/AshutoshM29"> <i><img class="social-img" src="image/git.svg" alt=""></i></a>
             </li>
             <li class="list-item">
-                <a href="https://twitter.com/Astomi_29?s=08"> <i><img class="social-img" src="image/twitter.svg"
+                <a href="https://twitter.com/ashu_mishra_89?s=09"> <i><img class="social-img" src="image/twitter.svg"
                             alt=""></i></a></li>
             <li class="list-item">
                 <a href="https://www.instagram.com/the.astomi/"> <i><img class="social-img" src="image/insta.svg"
