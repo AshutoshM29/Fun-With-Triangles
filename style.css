@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Rancho&display=swap");
 
-*{
-
-}
+* {}
 
 body {
     font-family: 'Rancho', cursive;
-    background-color:white;
+    background-color: white;
     color: #8B5CF6;
     margin: auto;
     text-align: center;
@@ -19,24 +17,23 @@ body {
 
 .link {
     text-decoration: none;
-    color:#8B5CF6;
+    color: #8B5CF6;
 }
 
-.link .link-active {
-
-}
+.link .link-active {}
 
 .heading {
     font-size: 4rem;
 }
 
 .head {
-    background-color:#8B5CF6;
+    background-color: #8B5CF6;
     padding: 1rem;
-    color:white;
+    color: white;
     text-align: center;
     margin-bottom: 5rem;
 }
+
 .head .link {
     color: white;
 
@@ -52,19 +49,19 @@ body {
 }
 
 .link:hover {
-    color: 
-    #4C1D95;
+    color:
+        #4C1D95;
 }
 
 container {
     width: 50vh;
     margin: auto;
-    display:grid;
+    display: grid;
 }
 
 .bottom {
-    background-color: 
-    #8B5CF6;
+    background-color:
+        #8B5CF6;
     margin-top: 3rem;
     padding: 2rem;
     color: white;
@@ -76,9 +73,9 @@ container {
     font-family: 'Rancho', cursive;
     padding: 1rem;
     border-radius: 1rem;
-    border-color: 
-#8B5CF6;
-    color: #8B5CF6;
+    border-color: white;
+    color: white;
+    background-color: #8B5CF6;
     margin-bottom: 2rem;
     font-size: large;
 }
@@ -87,39 +84,36 @@ container {
     font-family: 'Rancho', cursive;
     padding: 1rem;
     border-radius: 1rem;
-    border-color: 
-#8B5CF6;
-    color: 
-    #8B5CF6;
+    border-color: white;
+    color: white;
+    background-color: #8B5CF6;
     margin-bottom: 2rem;
     margin-top: 1rem;
-    font-size: large;   
+    font-size: large;
 }
 
 #hypotenuse-btn {
     font-family: 'Rancho', cursive;
     padding: 1rem;
     border-radius: 1rem;
-    border-color: 
-#8B5CF6;
-    color: 
-#8B5CF6;
+    border-color: white;
+    color: white;
+    background-color: #8B5CF6;
     margin-bottom: 2rem;
     margin-top: 1rem;
-    font-size: large; 
+    font-size: large;
 }
 
 #area-btn {
     font-family: 'Rancho', cursive;
     padding: 1rem;
     border-radius: 1rem;
-    border-color: 
-#8B5CF6;
-    color: 
-#8B5CF6;
+    border-color: white;
+    color: white;
+    background-color: #8B5CF6;
     margin-bottom: 2rem;
     margin-top: 1rem;
-    font-size: large; 
+    font-size: large;
 }
 
 nav .nav-pills {
@@ -184,9 +178,9 @@ nav .link-active {
 }
 
 .question-container {
-	padding: 1rem;
-	border: 2px solid #8B5CF6;
-	border-radius: 0.5rem;
-	margin: 1rem 0;
+    padding: 1rem;
+    border: 2px solid #8B5CF6;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
     margin-bottom: 2rem;
 }

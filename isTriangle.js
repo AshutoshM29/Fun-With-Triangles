@@ -9,13 +9,22 @@ function calculateSumOfAngles(angle1,angle2,angle3) {
 }
 
 function isTriangle() {
-    var sumOfAngles = calculateSumOfAngles(Number(inputs[0].value), Number(inputs[1].value), Number(inputs[2].value));
+
+    var angle1 = Number(inputs[0].value);
+    var angle2 = Number(inputs[1].value);
+    var angle3 = Number(inputs[2].value);
+
+    if(angle1 && angle2 && angle3) {
+        var sumOfAngles = calculateSumOfAngles(angle1, angle2, angle3);
         if(sumOfAngles===180) {
             outputDiv.innerText = "Yay! We have a Triangle";
         }
         else {
             outputDiv.innerText = "Oh no, We can't make Triangle with these angles";
         }
+    } else {
+        outputDiv.innerText = "Please enter all the fields"
+    }
 }
 
 isTriangleBtn.addEventListener("click", isTriangle);

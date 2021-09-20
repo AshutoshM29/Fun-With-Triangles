@@ -3,9 +3,15 @@ const areaButton = document.querySelector("#area-btn");
 const outputDiv = document.querySelector("#output");
 
 function calculateArea() {
-    var area = areaOfTriangle(Number(sides[0].value), Number(sides[1].value));
-    outputDiv.innerText= "The area of Triangle is : " + area + "units sq";
-    
+
+    var length = Number(sides[0].value);
+    var height = Number(sides[1].value);
+    if(length && height) {
+    var area = areaOfTriangle(length, height);
+    outputDiv.innerText= "The area of Triangle is : " + area + "sq units";
+    } else {
+        outputDiv.innerText ="Enter all the values !"
+    } 
 }
 
 function areaOfTriangle(b,h) {
