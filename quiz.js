@@ -15,8 +15,12 @@ function calculateScore() {
         }
         index = index + 1;
     }
+    if(score>0) {
     console.log(score);
     outputDiv.innerText = "Your score is : " + score;
+    } else {
+        outputDiv.innerText = "Solve the quiz !!"
+    } 
 }
 
 submitAnswerButton.addEventListener("click", calculateScore);
